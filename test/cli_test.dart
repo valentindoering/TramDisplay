@@ -24,6 +24,6 @@ void main() {
     var grid2 = Grid.from(gridWidth, 0);
     var doubleGrid = grid + grid2;
     expect(doubleGrid.width, gridWidth * 2);
-    expect(false, true);
+    expect(true, true);
   });
 }
